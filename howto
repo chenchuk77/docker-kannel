@@ -1,0 +1,8 @@
+sudo mkdir -p /opt/kannel/etc 
+sudo mkdir -p /opt/kannel/log
+sudo mkdir -p /opt/kannel/spool
+sudo mkdir -p /opt/jasmin/logs
+
+# jasmin
+docker run -d -v /opt/jasmin/logs:/var/log/jasmin --name jasmin jookies/jasmin:latest
+
