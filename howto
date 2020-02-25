@@ -6,3 +6,42 @@ sudo mkdir -p /opt/jasmin/logs
 # jasmin
 docker run -d -v /opt/jasmin/logs:/var/log/jasmin --name jasmin jookies/jasmin:latest
 
+
+modem-number: 052-324-5068
+
+
+# add smsjasmin to tty and dialout groups (for permissions over /dev/ttyUSB0)
+  190  sudo usermod -aG tty $USER 
+  191  groups
+  192  sudo usermod -aG dialout $USER 
+  193  groups
+  194  groups smsjasmin 
+
+
+#
+# running kannel without docker (foreground, 2 shells)
+# just for dev/debug. final version must run under systemd
+#
+
+smsjasmin@smsjasmin-VirtualBox:/var/spool$ sudo chown -R smsjasmin:smsjasmin kannel/
+smsjasmin@smsjasmin-VirtualBox:/var/log$ sudo chown -R smsjasmin:smsjasmin kannel/
+
+1. start bearerbox
+bearerbox /etc/kannel/kannel.conf
+
+2. start smsbox
+smsbox /etc/kannel/kannel.conf
+
+3. check sending from browser (dont use curl/wget !)
+http://192.168.2.102:13131/cgi-bin/sendsms?username=user&password=pass&from=972523245068&to=0544434545&text=kannelsms
+
+
+
+## sms pdu-txt converter for smsc-gsm1.log: 
+   https://www.smspdu.be/
+
+## MC35i AT Command Set: 
+   https://primteplo.ru/d/283643/d/mc35i_at.pdf
+
+
+
