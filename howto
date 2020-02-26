@@ -1,7 +1,28 @@
+
+## folders to create before launching the containers
+
 sudo mkdir -p /opt/kannel/etc 
 sudo mkdir -p /opt/kannel/log
 sudo mkdir -p /opt/kannel/spool
 sudo mkdir -p /opt/jasmin/logs
+
+ chenchuk@chenchuk-sln  /opt/kannel  tree
+.
+├── etc
+│   ├── kannel.conf
+│   └── opensmppbox
+│       └── clients
+├── log
+│   └── opensmppbox.log
+└── spool
+
+###########################################
+
+
+
+
+
+
 
 # jasmin
 docker run -d -v /opt/jasmin/logs:/var/log/jasmin --name jasmin jookies/jasmin:latest

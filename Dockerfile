@@ -1,6 +1,6 @@
 FROM ubuntu:precise
 
-MAINTAINER Tim Akinbo <takinbo@timbaobjects.com>
+MAINTAINER Chen Alkabets <chenchuk@gmail.com>
 
 RUN apt-get update && apt-get install -y \
     bison \
@@ -23,6 +23,17 @@ RUN apt-get update && apt-get install -y \
     && rm -Rf gateway-1.4.5 \
     && mkdir -p /var/log/kannel \
     && mkdir -p /var/spool/kannel
+
+# installing opensmppbox
+RUN cd /tmp \
+    && apt-get install -y subversion \
+    && svn co https://svn.kannel.org/opensmppbox/trunk \
+    && cd trunk \
+    && ./configure \
+    && make \
+    && make install \
+    && ln -s /usr/local/sbin/opensmppbox \
+             /usr/sbin/opensmppbox
 
 VOLUME /etc/kannel
 VOLUME /var/log/kannel
