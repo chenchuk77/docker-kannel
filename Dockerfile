@@ -1,5 +1,12 @@
 FROM ubuntu:precise
 
+#
+# kannelplus image, contains kannel + opensmppbox
+#
+# TODO: bearerbox fail due to unknown group in config (opensmppbox)
+# this is probably because kannel-dev should be used when using opensmppbox
+#
+
 MAINTAINER Chen Alkabets <chenchuk@gmail.com>
 
 RUN apt-get update && apt-get install -y \
@@ -39,3 +46,6 @@ VOLUME /etc/kannel
 VOLUME /var/log/kannel
 VOLUME /var/spool/kannel
 WORKDIR /usr/sbin
+
+# admin-port, send-sms-port, smpp-port
+EXPOSE 13000 13013 2776
