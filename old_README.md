@@ -13,6 +13,11 @@ This docker image exposes a number of volumes that can be used for providing ext
 
 ### Running the bearerbox ###
 `
+docker run --rm -t -i --name bearerbox --hostname bearerbox --volume /opt/kannel/etc/:/etc/kannel --volume /opt/kannel/log:/var/log/kannel --volume /opt/kannel/spool:/var/spool/kannel kannel bearerbox -v 0 /etc/kannel/kannel.conf
+
+# as daemon with opensmppbox support
+docker run -d --name bearerbox --hostname bearerbox --volume /opt/kannel/etc/:/etc/kannel --volume /opt/kannel/log:/var/log/kannel --volume /opt/kannel/spool:/var/spool/kannel kannelplus bearerbox -v 0 /etc/kannel/kannel.conf
+
 # as daemon with opensmppbox support (local config in ./volumes instead of /opt)
 docker run -d --name bearerbox \
        --hostname bearerbox \
@@ -20,10 +25,16 @@ docker run -d --name bearerbox \
        --volume $(readlink -f volumes)/kannel/log:/var/log/kannel \
        --volume $(readlink -f volumes)/kannel/spool:/var/spool/kannel \
          kannelplus bearerbox -v 0 /etc/kannel/kannel.conf
+
 `
 
 ### Running the smsbox ###
 `
+docker run --rm -t -i --name smsbox --hostname smsbox --volumes-from bearerbox --link bearerbox:bearerbox kannel smsbox -v 0 /etc/kannel/kannel.conf
+
+# as daemon with opensmppbox support
+docker run -d --name smsbox --hostname smsbox --volumes-from bearerbox --link bearerbox:bearerbox kannelplus smsbox -v 0 /etc/kannel/kannel.conf
+
 # as daemon with opensmppbox support (local config in ./volumes instead of /opt)
 docker run -d --name smsbox \
        --hostname smsbox \
@@ -32,14 +43,21 @@ docker run -d --name smsbox \
          kannelplus smsbox -v 0 /etc/kannel/kannel.conf
 `
 
+
 ### Running the opensmppbox ###
 `
+# as daemon 
+docker run -d --name smppbox --hostname smppbox --volumes-from bearerbox --link bearerbox:bearerbox kannelplus smppbox -v 0 /etc/kannel/kannel.conf
+
 # as daemon (local config in ./volumes instead of /opt)
 docker run -d --name smppbox \
        --hostname smppbox \
        --volumes-from bearerbox \
        --link bearerbox:bearerbox \
          kannelplus smppbox -v 0 /etc/kannel/kannel.conf
+
+
+
 `
 
 
