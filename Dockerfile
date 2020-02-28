@@ -1,14 +1,9 @@
-FROM ubuntu:precise
-
 #
 # kannelplus image, contains kannel + opensmppbox
 #
-# TODO: bearerbox fail due to unknown group in config (opensmppbox)
-# this is probably because kannel-dev should be used when using opensmppbox
-#
 
+FROM ubuntu:precise
 MAINTAINER Chen Alkabets <chenchuk@gmail.com>
-
 RUN apt-get update && apt-get install -y \
     bison \
     build-essential \
