@@ -2,3 +2,5 @@ volumes/kannel/log/smsc-gsm1.log
 volumes/kannel/log/opensmppbox.log
 volumes/kannel/log/access.log
 volumes/kannel/log/kannel.log
+logs
+volumes/kannel/log

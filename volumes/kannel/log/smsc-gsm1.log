@@ -38044,3 +38044,656 @@
 2020-02-28 06:35:10 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
 2020-02-28 06:35:10 [1] [6] ERROR: System error 2: No such file or directory
 2020-02-28 06:35:10 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:35:20 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:35:20 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:35:20 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:35:20 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:35:20 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:35:20 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:35:30 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:35:30 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:35:30 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:35:30 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:35:30 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:35:30 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:35:40 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:35:40 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:35:40 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:35:40 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:35:40 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:35:40 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:35:50 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:35:50 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:35:50 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:35:50 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:35:50 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:35:50 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:36:00 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:36:00 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:36:00 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:36:00 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:36:00 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:36:00 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:36:10 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:36:10 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:36:10 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:36:10 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:36:10 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:36:10 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:36:20 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:36:20 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:36:20 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:36:20 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:36:20 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:36:20 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:36:30 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:36:30 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:36:30 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:36:30 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:36:30 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:36:30 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:36:40 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:36:40 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:36:40 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:36:40 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:36:40 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:36:40 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:36:50 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:36:50 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:36:50 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:36:50 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:36:50 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:36:50 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:37:00 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:37:00 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:37:00 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:37:00 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:37:00 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:37:00 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:37:10 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:37:10 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:37:10 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:37:10 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:37:10 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:37:10 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:37:20 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:37:20 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:37:20 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:37:20 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:37:20 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:37:20 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:37:30 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:37:30 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:37:30 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:37:30 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:37:30 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:37:30 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:37:40 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:37:40 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:37:40 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:37:40 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:37:40 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:37:40 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:37:50 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:37:50 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:37:50 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:37:50 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:37:50 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:37:50 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:38:00 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:38:00 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:38:00 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:38:00 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:38:00 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:38:00 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:38:10 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:38:10 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:38:10 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:38:10 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:38:10 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:38:10 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:38:20 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:38:20 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:38:20 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:38:20 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:38:20 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:38:20 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:38:30 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:38:30 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:38:30 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:38:30 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:38:30 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:38:30 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:38:40 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:38:40 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:38:40 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:38:40 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:38:40 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:38:40 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:38:50 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:38:50 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:38:50 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:38:50 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:38:50 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:38:50 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:39:00 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:39:00 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:39:00 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:39:00 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:39:00 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:39:00 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:39:10 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:39:10 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:39:10 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:39:10 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:39:10 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:39:10 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:39:20 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:39:20 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:39:20 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:39:20 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:39:20 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:39:20 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:39:31 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:39:31 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:39:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:39:31 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:39:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:39:31 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:39:41 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:39:41 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:39:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:39:41 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:39:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:39:41 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:39:51 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:39:51 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:39:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:39:51 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:39:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:39:51 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:40:01 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:40:01 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:40:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:40:01 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:40:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:40:01 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:40:11 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:40:11 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:40:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:40:11 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:40:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:40:11 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:40:21 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:40:21 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:40:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:40:21 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:40:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:40:21 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:40:31 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:40:31 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:40:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:40:31 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:40:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:40:31 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:40:41 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:40:41 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:40:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:40:41 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:40:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:40:41 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:40:51 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:40:51 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:40:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:40:51 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:40:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:40:51 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:41:01 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:41:01 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:41:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:41:01 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:41:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:41:01 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:41:11 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:41:11 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:41:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:41:11 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:41:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:41:11 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:41:21 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:41:21 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:41:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:41:21 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:41:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:41:21 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:41:31 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:41:31 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:41:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:41:31 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:41:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:41:31 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:41:41 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:41:41 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:41:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:41:41 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:41:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:41:41 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:41:51 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:41:51 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:41:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:41:51 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:41:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:41:51 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:42:01 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:42:01 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:42:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:42:01 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:42:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:42:01 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:42:11 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:42:11 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:42:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:42:11 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:42:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:42:11 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:42:21 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:42:21 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:42:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:42:21 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:42:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:42:21 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:42:31 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:42:31 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:42:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:42:31 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:42:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:42:31 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:42:41 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:42:41 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:42:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:42:41 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:42:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:42:41 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:42:51 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:42:51 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:42:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:42:51 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:42:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:42:51 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:43:01 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:43:01 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:43:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:43:01 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:43:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:43:01 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:43:11 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:43:11 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:43:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:43:11 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:43:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:43:11 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:43:21 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:43:21 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:43:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:43:21 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:43:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:43:21 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:43:31 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:43:31 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:43:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:43:31 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:43:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:43:31 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:43:41 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:43:41 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:43:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:43:41 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:43:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:43:41 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:43:51 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:43:51 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:43:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:43:51 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:43:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:43:51 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:44:01 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:44:01 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:44:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:44:01 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:44:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:44:01 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:44:11 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:44:11 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:44:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:44:11 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:44:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:44:11 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:44:21 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:44:21 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:44:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:44:21 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:44:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:44:21 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:44:31 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:44:31 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:44:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:44:31 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:44:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:44:31 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:44:41 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:44:41 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:44:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:44:41 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:44:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:44:41 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:44:51 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:44:51 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:44:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:44:51 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:44:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:44:51 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:45:01 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:45:01 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:45:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:45:01 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:45:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:45:01 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:45:11 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:45:11 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:45:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:45:11 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:45:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:45:11 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:45:21 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:45:21 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:45:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:45:21 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:45:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:45:21 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:45:31 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:45:31 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:45:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:45:31 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:45:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:45:31 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:45:41 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:45:41 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:45:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:45:41 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:45:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:45:41 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:45:51 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:45:51 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:45:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:45:51 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:45:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:45:51 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:46:01 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:46:01 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:46:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:46:01 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:46:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:46:01 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:46:11 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:46:11 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:46:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:46:11 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:46:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:46:11 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:46:21 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:46:21 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:46:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:46:21 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:46:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:46:21 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:46:31 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:46:31 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:46:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:46:31 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:46:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:46:31 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:46:41 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:46:41 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:46:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:46:41 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:46:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:46:41 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:46:51 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:46:51 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:46:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:46:51 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:46:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:46:51 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:47:01 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:47:01 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:47:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:47:01 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:47:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:47:01 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:47:11 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:47:11 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:47:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:47:11 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:47:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:47:11 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:47:21 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:47:21 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:47:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:47:21 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:47:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:47:21 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:47:31 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:47:31 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:47:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:47:31 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:47:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:47:31 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:47:41 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:47:41 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:47:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:47:41 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:47:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:47:41 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:47:51 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:47:51 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:47:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:47:51 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:47:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:47:51 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:48:01 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:48:01 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:48:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:48:01 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:48:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:48:01 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:48:11 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:48:11 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:48:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:48:11 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:48:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:48:11 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:48:21 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:48:21 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:48:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:48:21 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:48:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:48:21 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:48:31 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:48:31 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:48:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:48:31 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:48:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:48:31 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:48:41 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:48:41 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:48:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:48:41 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:48:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:48:41 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:48:51 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:48:51 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:48:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:48:51 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:48:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:48:51 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:49:01 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:49:01 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:49:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:49:01 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:49:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:49:01 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:49:11 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:49:11 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:49:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:49:11 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:49:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:49:11 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:49:21 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:49:21 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:49:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:49:21 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:49:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:49:21 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:49:31 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:49:31 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:49:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:49:31 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:49:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:49:31 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:49:41 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:49:41 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:49:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:49:41 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:49:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:49:41 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:49:51 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:49:51 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:49:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:49:51 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:49:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:49:51 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:50:01 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:50:01 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:50:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:50:01 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:50:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:50:01 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:50:11 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:50:11 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:50:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:50:11 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:50:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:50:11 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:50:21 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:50:21 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:50:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:50:21 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:50:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:50:21 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:50:31 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:50:31 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:50:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:50:31 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:50:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:50:31 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:50:41 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:50:41 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:50:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:50:41 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:50:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:50:41 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:50:51 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:50:51 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:50:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:50:51 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:50:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:50:51 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:51:01 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:51:01 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:51:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:51:01 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:51:01 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:51:01 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:51:11 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:51:11 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:51:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:51:11 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:51:11 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:51:11 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:51:21 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:51:21 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:51:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:51:21 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:51:21 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:51:21 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:51:31 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:51:31 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:51:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:51:31 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:51:31 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:51:31 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:51:41 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:51:41 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:51:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:51:41 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:51:41 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:51:41 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:51:51 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:51:51 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:51:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:51:51 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:51:51 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:51:51 [1] [6] ERROR: AT2[gsm1]: Couldn't connect (retrying in 10 seconds).
+2020-02-28 06:51:52 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:51:52 [1] [6] ERROR: AT2[gsm1]: open failed! ERRNO=2
+2020-02-28 06:51:52 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:51:52 [1] [6] ERROR: AT2[gsm1]: at2_device_thread: open_at2_device failed.
+2020-02-28 06:51:52 [1] [6] ERROR: System error 2: No such file or directory
+2020-02-28 06:51:52 [1] [6] INFO: AT2[gsm1]: Closing device
+2020-02-28 06:51:52 [1] [6] DEBUG: Thread 6 (gw/smsc/smsc_at.c:at2_device_thread) terminates.
+2020-02-28 06:55:45 [1] [6] INFO: AT2[gsm1]: opening device
+2020-02-28 06:55:45 [1] [6] DEBUG: AT2[gsm1]: device opened. Telnet mode = 0
+2020-02-28 06:55:46 [1] [6] DEBUG: AT2[gsm1]: device opened
+2020-02-28 06:55:46 [1] [6] INFO: AT2[gsm1]: Logging in
+2020-02-28 06:55:46 [1] [6] INFO: AT2[gsm1]: init device
+2020-02-28 06:55:46 [1] [6] INFO: AT2[gsm1]: speed set to 115200
+2020-02-28 06:55:46 [1] [6] DEBUG: AT2[gsm1]: --> ATZ^M
+2020-02-28 06:55:46 [1] [6] DEBUG: AT2[gsm1]: <-- ATZ
+2020-02-28 06:55:46 [1] [6] DEBUG: AT2[gsm1]: <-- OK
+2020-02-28 06:55:46 [1] [6] DEBUG: AT2[gsm1]: --> AT^M
+2020-02-28 06:55:46 [1] [6] DEBUG: AT2[gsm1]: <-- AT
+2020-02-28 06:55:46 [1] [6] DEBUG: AT2[gsm1]: <-- OK
+2020-02-28 06:55:46 [1] [6] DEBUG: AT2[gsm1]: --> AT&F^M
+2020-02-28 06:55:47 [1] [6] DEBUG: AT2[gsm1]: <-- AT&F
+2020-02-28 06:55:47 [1] [6] DEBUG: AT2[gsm1]: <-- OK
+2020-02-28 06:55:47 [1] [6] DEBUG: AT2[gsm1]: --> ATE0^M
+2020-02-28 06:55:47 [1] [6] DEBUG: AT2[gsm1]: <-- ATE0
+2020-02-28 06:55:47 [1] [6] DEBUG: AT2[gsm1]: <-- OK
+2020-02-28 06:55:47 [1] [6] DEBUG: AT2[gsm1]: --> AT+IFC=2,2^M
+2020-02-28 06:55:47 [1] [6] DEBUG: AT2[gsm1]: <-- ERROR
+2020-02-28 06:55:47 [1] [6] ERROR: AT2[gsm1]: Generic error: ERROR
+2020-02-28 06:55:47 [1] [6] INFO: AT2[gsm1]: cannot enable hardware handshake
+2020-02-28 06:55:47 [1] [6] DEBUG: AT2[gsm1]: --> AT+CPIN?^M
+2020-02-28 06:55:47 [1] [6] DEBUG: AT2[gsm1]: <-- +CPIN: READY
+2020-02-28 06:55:47 [1] [6] DEBUG: AT2[gsm1]: --> AT+CMGF=0^M
+2020-02-28 06:55:47 [1] [6] DEBUG: AT2[gsm1]: <-- OK
+2020-02-28 06:55:47 [1] [6] DEBUG: AT2[gsm1]: --> AT+CSMS=?^M
+2020-02-28 06:55:48 [1] [6] DEBUG: AT2[gsm1]: <-- OK
+2020-02-28 06:55:48 [1] [6] DEBUG: AT2[gsm1]: --> AT+CNMI=2,2,0,1,0;+CMEE=1^M
+2020-02-28 06:55:48 [1] [6] DEBUG: AT2[gsm1]: <-- +CSMS: (0,1)
+2020-02-28 06:55:48 [1] [6] DEBUG: AT2[gsm1]: <-- OK
+2020-02-28 06:55:48 [1] [6] INFO: AT2[gsm1]: AT SMSC successfully opened.
+2020-02-28 06:55:48 [1] [6] DEBUG: AT2[gsm1]: <-- ERROR
+2020-02-28 06:55:48 [1] [6] ERROR: AT2[gsm1]: Generic error: ERROR
+2020-02-28 06:55:48 [1] [6] DEBUG: AT2[gsm1]: --> AT+CPMS?^M
+2020-02-28 06:55:48 [1] [6] DEBUG: AT2[gsm1]: <-- +CPMS: "SM",0,30,"MT",25,55,"MT",25,55
+2020-02-28 06:55:48 [1] [6] DEBUG: AT2[gsm1]: <-- OK
+2020-02-28 06:56:50 [1] [6] DEBUG: AT2[gsm1]: --> AT+CPMS?^M
+2020-02-28 06:56:50 [1] [6] DEBUG: AT2[gsm1]: <-- +CPMS: "SM",0,30,"MT",25,55,"MT",25,55
+2020-02-28 06:56:50 [1] [6] DEBUG: AT2[gsm1]: <-- OK
+2020-02-28 06:57:52 [1] [6] DEBUG: AT2[gsm1]: --> AT+CPMS?^M
+2020-02-28 06:57:53 [1] [6] DEBUG: AT2[gsm1]: <-- +CPMS: "SM",0,30,"MT",25,55,"MT",25,55
+2020-02-28 06:57:53 [1] [6] DEBUG: AT2[gsm1]: <-- OK
+2020-02-28 06:58:55 [1] [6] DEBUG: AT2[gsm1]: --> AT+CPMS?^M
+2020-02-28 06:58:55 [1] [6] DEBUG: AT2[gsm1]: <-- +CPMS: "SM",0,30,"MT",25,55,"MT",25,55
+2020-02-28 06:58:55 [1] [6] DEBUG: AT2[gsm1]: <-- OK
