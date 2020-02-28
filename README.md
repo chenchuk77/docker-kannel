@@ -14,7 +14,7 @@ This docker image exposes a number of volumes that can be used for providing ext
 ### Running the bearerbox ###
 `
 # as daemon with opensmppbox support (local config in ./volumes instead of /opt)
-docker run -d --name bearerbox \
+docker run -d --name bearerbox -p 13000:13000 \
        --hostname bearerbox \
        --volume $(readlink -f volumes)/kannel/etc/:/etc/kannel \
        --volume $(readlink -f volumes)/kannel/log:/var/log/kannel \
@@ -25,7 +25,7 @@ docker run -d --name bearerbox \
 ### Running the smsbox ###
 `
 # as daemon with opensmppbox support (local config in ./volumes instead of /opt)
-docker run -d --name smsbox \
+docker run -d --name smsbox -p 13013:13013 \
        --hostname smsbox \
        --volumes-from bearerbox \
        --link bearerbox:bearerbox \
@@ -35,11 +35,11 @@ docker run -d --name smsbox \
 ### Running the opensmppbox ###
 `
 # as daemon (local config in ./volumes instead of /opt)
-docker run -d --name smppbox \
+docker run -d --name smppbox -p 2776:2776 \
        --hostname smppbox \
        --volumes-from bearerbox \
        --link bearerbox:bearerbox \
-         kannelplus smppbox -v 0 /etc/kannel/kannel.conf
+         kannelplus opensmppbox -v 0 /etc/kannel/kannel-smpp.conf
 `
 
 

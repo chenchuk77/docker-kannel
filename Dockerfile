@@ -31,8 +31,6 @@ RUN apt-get update && apt-get install -y \
     && mkdir -p /var/log/kannel \
     && mkdir -p /var/spool/kannel
 
-# install kannel-dev
-
 # installing opensmppbox
 RUN cd /tmp \
     && apt-get install -y subversion \
@@ -43,6 +41,9 @@ RUN cd /tmp \
     && make install \
     && ln -s /usr/local/sbin/opensmppbox \
              /usr/sbin/opensmppbox
+
+# install kannel-dev
+RUN apt-get install -y kannel-dev
 
 VOLUME /etc/kannel
 VOLUME /var/log/kannel
