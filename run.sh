@@ -37,7 +37,6 @@ docker run -d --name opensmppbox -p 2776:2776 \
          kannelplus opensmppbox -v 0 /etc/kannel/opensmppbox.conf
 
 echo "kannel started."
-
-docker ps
+docker ps --format 'table {{.Names}}\t{{.Status}}\t{{.Ports}}'
 echo "done."
 

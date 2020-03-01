@@ -56,6 +56,13 @@ smsbox /etc/kannel/kannel.conf
 3. check sending from browser (dont use curl/wget !)
 http://192.168.2.102:13131/cgi-bin/sendsms?username=user&password=pass&from=972523245068&to=0544434545&text=kannelsms
 
+Kannel-docker-tester:
+http://192.168.2.102:13013/cgi-bin/sendsms?username=user&password=pass&from=972523245068&to=0544434545&text=kannelsms
+
+
+
+
+##### LINKS
 
 
 ## sms pdu-txt converter for smsc-gsm1.log: 
@@ -65,4 +72,6 @@ http://192.168.2.102:13131/cgi-bin/sendsms?username=user&password=pass&from=9725
    https://primteplo.ru/d/283643/d/mc35i_at.pdf
 
 
+## serial port
+  http://marc.merlins.org/perso/linux/post_2018-12-20_Accessing-USB-Devices-In-Docker-_ttyUSB0_-dev-bus-usb-_-for-fastboot_-adb_-without-using-privileged.html
 
