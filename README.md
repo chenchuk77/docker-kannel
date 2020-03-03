@@ -35,3 +35,33 @@ docker run -d --name opensmppbox -p 2776:2776 \
          kannelplus opensmppbox -v 0 /etc/kannel/opensmppbox.conf
 `
 
+### Running smpp-tester ###
+`
+docker run -d --name tester-bearerbox -p 14000:13000 \
+       --hostname tester-bearerbox \
+       --link opensmppbox:opensmppbox \
+       --volume $(readlink -f volumes-tester)/kannel/etc/:/etc/kannel \
+       --volume $(readlink -f volumes-tester)/kannel/log:/var/log/kannel \
+       --volume $(readlink -f volumes-tester)/kannel/spool:/var/spool/kannel \
+         kannelplus bearerbox -v 0 /etc/kannel/kannel.conf
+
+docker run -d --name tester-smsbox -p 14013:13013 \
+       --hostname tester-smsbox \
+       --volumes-from tester-bearerbox \
+       --link tester-bearerbox:tester-bearerbox \
+       --link opensmppbox:opensmppbox \
+         kannelplus smsbox -v 0 /etc/kannel/kannel.conf
+
+## OLD TESTING
+docker run -d --name smpp-tester -p 14000:13000 -p 14013:13013 \
+       --hostname smpp-tester \
+       --link opensmppbox:opensmppbox \
+       --volume $(readlink -f volumes-tester)/kannel/etc/:/etc/kannel \
+       --volume $(readlink -f volumes-tester)/kannel/log:/var/log/kannel \
+       --volume $(readlink -f volumes-tester)/kannel/spool:/var/spool/kannel \
+         kannelplus bearerbox -v 0 /etc/kannel/kannel.conf
+         #kannelplus /bin/bash
+
+docker exec -d smpp-tester smsbox -v 0 /etc/kannel/kannel.conf
+`
+

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "removing old containers, press ^c to abort..."
-sleep 3s
+sleep 1s
 docker stop smsbox      || true
 docker rm smsbox        || true
 docker stop opensmppbox || true
