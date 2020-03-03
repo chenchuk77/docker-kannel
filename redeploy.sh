@@ -18,12 +18,6 @@ docker run -d --name bearerbox -p 13000:13000 \
        --volume $(readlink -f volumes)/kannel/spool:/var/spool/kannel \
          kannelplus bearerbox -v 0 /etc/kannel/kannel.conf
 
-#docker run -d --name bearerbox -p 13000:13000 \
-#       --hostname bearerbox \
-#       --volume $(readlink -f volumes)/kannel/etc/:/etc/kannel \
-#       --volume $(readlink -f volumes)/kannel/log:/var/log/kannel \
-#       --volume $(readlink -f volumes)/kannel/spool:/var/spool/kannel \
-#         kannelplus bearerbox -v 0 /etc/kannel/kannel.conf
 echo "waiting for bearerbox..."; sleep 3s
 
 echo "starting smsbox..."
