@@ -13,6 +13,7 @@ echo "starting bearerbox..."
 docker run -d --name bearerbox -p 13000:13000 \
        --hostname bearerbox \
        --device=/dev/ttyUSB0 --cap-add SYS_PTRACE \
+       --device=/dev/ttyUSB1 --cap-add SYS_PTRACE \
        --volume $(readlink -f volumes)/kannel/etc/:/etc/kannel \
        --volume $(readlink -f volumes)/kannel/log:/var/log/kannel \
        --volume $(readlink -f volumes)/kannel/spool:/var/spool/kannel \
