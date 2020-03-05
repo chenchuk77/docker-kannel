@@ -58,8 +58,12 @@
   var Application = function() {
   var socket = io('http://192.168.2.113:8000');
   var logfiles = [
-    { filename: 'log/smsc-gsm1.log', color: 'red', enabled: true },
-    { filename: 'log/kannel.log', color: 'blue', enabled: true }
+    { filename: 'log/kannel.log',       color: 'black',  enabled: true },
+    { filename: 'log/access.log',       color: 'gray',   enabled: true },
+    { filename: 'log/smsc-gsm0.log',    color: 'red',    enabled: true },
+    { filename: 'log/smsc-gsm1.log',    color: 'purple', enabled: true },
+//    { filename: 'log/opensmppbox0.log', color: 'navy', enabled: true },
+    { filename: 'log/opensmppbox1.log', color: 'teal',   enabled: true }
   ];
 
   // add a change-state button to each logfile
@@ -89,7 +93,8 @@
       if (message.tail) {
 	var logfile = logfiles.find(obj => obj.filename === message.filename)
         if (logfile.enabled) {
-	  $('#tail').append($('<span>').css('color', logfile.color).text(message.tail).append($('<br>')))
+	  //$('#tail').append($('<span>').css('color', logfile.color).text(message.tail).append($('<br>')))
+	  $('#tail').append($('<span>').css('color', logfile.color).text(message.tail));
           bottom = $("#tail")[0].scrollHeight - $("#tail").height()
           $('#tail').scrollTop(bottom);
 	} else {

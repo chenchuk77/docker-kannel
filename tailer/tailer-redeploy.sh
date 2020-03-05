@@ -14,7 +14,10 @@ docker run -d --name tailer \
 	   -p 8000:8000 \
            --volume $(readlink -f ../volumes)/kannel/log:/usr/src/app/log \
      	   -w /usr/src/app \
-           tailer:1.0 node server.js log/smsc-gsm1.log log/kannel.log
+           tailer:1.0 node server.js
+
+
+#           tailer:1.0 node server.js log/smsc-gsm1.log log/kannel.log
 
 
 
