@@ -17,58 +17,87 @@
         font-weight: bold; }
     #tail
       { border: 1px solid #ccc;
-        height: 300px;
+        height: 600px;
         padding: 0.5em;
         overflow: hidden;
         position: relative;
         overflow-y: scroll; }
+
+.butt {
+	font-size: .825em;
+	text-decoration: none;
+	font-weight: 700;
+	padding: .35em 1em;
+	background-color: #eaeef1;
+	background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.1));
+	border-radius: 3px;
+	color: rgba(0,0,0,.6);
+	text-shadow: 0 1px 1px rgba(255,255,255,.7);
+	box-shadow: 0 0 0 1px rgba(0,0,0,.2), 0 1px 2px rgba(0,0,0,.2), inset 0 1px 2px rgba(255,255,255,.7);
+}
+
+.butt:hover, .butt.hover {
+	background-color: #fff;
+}
+
+.butt:active, .butt.active {
+	background-color: #d0d3d6;
+	background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,0));
+	box-shadow: inset 0 0 2px rgba(0,0,0,.2), inset 0 2px 5px rgba(0,0,0,.2), 0 1px rgba(255,255,255,.2);
+}
+
+
   </style>
 
 </head>
 <body>
-  <pre id="info"></pre>
-  <pre id="tail"></pre>
-
+<pre id="info"></pre>
+<div id="buttons"></div>
+<pre id="tail"></pre>
   <script>
-
   var Application = function() {
-
-
-    //var socket = io.connect('http://127.0.0.1:8000/');
-    //var socket = io.connect('http://192.168.2.113:8000/');
-//    var socket = io.connect('http://192.168.2.113:8000');
-    //var socket  = new io.Socket(null, {port: 8000, host: '192.168.2.113'});
-    //var socket  = new io.Socket(null, {port: 8000, host: '192.168.2.113'});
-    
-//	      var socket = new io.Socket();
-
-	  
-//	  var socket  = new io.Socket('http://192.168.2.113:8000');
- //   socket.connect();
-
-  //  socket.connect('http://192.168.2.113:8000');
   var socket = io('http://192.168.2.113:8000');
-  //socket.on('event', function(data){});
-  //socket.on('disconnect', function(){});
+  var logfiles = [
+    { filename: 'log/smsc-gsm1.log', color: 'red', enabled: true },
+    { filename: 'log/kannel.log', color: 'blue', enabled: true }
+  ];
 
+  // add a change-state button to each logfile
+  for(let logfile of logfiles) {
+    $('#buttons').append('<span class="butt hover">' + logfile.filename + '</span>');
+  }
 
+  // add click handler to change state
+  $('#buttons').click(function(event){
+    console.log('button pressed: ' + event.target.innerHTML);
+    // flip state
+    var logfile = logfiles.find(obj => obj.filename === event.target.innerHTML)
+    if (logfile.enabled) {
+      logfile.enabled = false;
+      alert('disabling logfile: ' + logfile.filename);
+    } else { 
+      logfile.enabled = true;
+      alert('enabling logfile: ' + logfile.filename);
+    }
+  });
 
     socket.on('connect', function() {
       console.log('Connected to:', socket.host);
     });
     socket.on('message', function(message) {
       console.log('Received message:', message);
-      if (message.filename) {
-        $('#info').html( '$ tail -f ' + message.filename );
-      };
       if (message.tail) {
-        $('#tail').html( $('#tail').html() + message.tail );
-        bottom = $("#tail")[0].scrollHeight - $("#tail").height()
-        $('#tail').scrollTop(bottom);
+	var logfile = logfiles.find(obj => obj.filename === message.filename)
+        if (logfile.enabled) {
+	  $('#tail').append($('<span>').css('color', logfile.color).text(message.tail).append($('<br>')))
+          bottom = $("#tail")[0].scrollHeight - $("#tail").height()
+          $('#tail').scrollTop(bottom);
+	} else {
+	  console.log('skipping disabled message from: ' + message.filename);
+	}
 
       }
     });
-
     return {
       socket : socket
     };
