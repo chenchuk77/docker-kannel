@@ -63,9 +63,8 @@ kannel-web interface:
 curl -X GET "http://192.168.2.113:13013/cgi-bin/sendsms?username=user&password=pass&from=972527772277&to=0544434545&text=from_kanel"
 
 
-smpp-tester web interface:
-curl -X GET "http://192.168.2.113:14013/cgi-bin/sendsms?username=testuser&password=testpass&from=972527772277&to=0544434545&text=from_smpp_tester"
-
+smpp-tester web interface (using modem of gsm1 as source):
+curl -X GET "http://192.168.2.113:14013/cgi-bin/sendsms?username=testuser&password=testpass&from=972522736902&to=0544434545&text=from_smpp_tester"
 
 
 ##### LINKS

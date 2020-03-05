@@ -51,9 +51,13 @@
 
 </head>
 <body>
-<pre id="info"></pre>
-<div id="buttons"></div>
-<pre id="tail"></pre>
+  <pre id="info"></pre>
+  <div id="buttons"></div>
+  <pre id="tail"></pre>
+  <div id="lowerbuttons">
+    <span id="clear" class="butt hover">Clear</span>
+  </div>
+  
   <script>
   var Application = function() {
   var socket = io('http://192.168.2.113:8000');
@@ -65,6 +69,11 @@
 //    { filename: 'log/opensmppbox0.log', color: 'navy', enabled: true },
     { filename: 'log/opensmppbox1.log', color: 'teal',   enabled: true }
   ];
+
+  $('#clear').click(function(event){
+    console.log('clear button pressed.');
+    $('#tail').html('');
+  });
 
   // add a change-state button to each logfile
   for(let logfile of logfiles) {
@@ -78,10 +87,10 @@
     var logfile = logfiles.find(obj => obj.filename === event.target.innerHTML)
     if (logfile.enabled) {
       logfile.enabled = false;
-      alert('disabling logfile: ' + logfile.filename);
+      alert(logfile.filename + ' output disabled.');
     } else { 
       logfile.enabled = true;
-      alert('enabling logfile: ' + logfile.filename);
+      alert(logfile.filename + ' output enabled.');
     }
   });
 
