@@ -8,8 +8,14 @@ Image that contains installation of kannel and opensmppbox.
 To build the docker image:
 $ docker built -t kannelplus .
 
+## tailer
+website that server realtime colored logs over http using nodejs.
+
 ## Usage ##
 This docker image exposes a number of volumes that can be used for providing external access to the Kannel configuration file and logs.
+
+## The hard way
+Running seperate components (not recommended)
 
 ### Running bearerbox ###
 `
@@ -53,16 +59,23 @@ docker run -d --name tester-smsbox -p 14013:13013 \
        --link opensmppbox:opensmppbox \
          kannelplus smsbox -v 0 /etc/kannel/kannel.conf
 
-## OLD TESTING
-docker run -d --name smpp-tester -p 14000:13000 -p 14013:13013 \
-       --hostname smpp-tester \
-       --link opensmppbox:opensmppbox \
-       --volume $(readlink -f volumes-tester)/kannel/etc/:/etc/kannel \
-       --volume $(readlink -f volumes-tester)/kannel/log:/var/log/kannel \
-       --volume $(readlink -f volumes-tester)/kannel/spool:/var/spool/kannel \
-         kannelplus bearerbox -v 0 /etc/kannel/kannel.conf
-         #kannelplus /bin/bash
-
-docker exec -d smpp-tester smsbox -v 0 /etc/kannel/kannel.conf
 `
+
+## The easy way
+
+### Running all from scratch
+After deploying tailer, you should see realtime logs at http://192.168.2.113:8000
+`
+# to redeploy kannel (bearerbox, smsbox, opensmppbox):
+./redeploy.sh
+
+# to redeploy smpp tester (tester-bearerbox, tester-smsbox):
+./tester-redeploy.sh
+
+# to redeploy tailer:
+cd tailer
+./tailer-redeploy.sh
+
+`
+
 
