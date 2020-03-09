@@ -7,7 +7,7 @@
 
 FROM node:10
 
-RUN npm install tail socket.io
+RUN npm install path tail socket.io
 
 COPY ./app /usr/src/app
 
