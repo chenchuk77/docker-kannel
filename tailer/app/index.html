@@ -23,6 +23,14 @@
         position: relative;
         overflow-y: scroll; }
 
+
+#boardTable {
+    text-overflow: ellipsis; /* will make [...] at the end */
+    width: 370px; /* change to your preferences */
+    white-space: nowrap; /* paragraph to one line */
+    overflow:hidden; /* older browsers */
+    }
+
 //    #board
 //      { border: 2px solid #ccc;
 //        height: 100px;
@@ -63,7 +71,7 @@
   <div id="buttons"></div>
   <pre id="tail"></pre>
   <div id="board">
-    <table border="1">
+    <table id="boardTable">
       </thead>
         <tr>
           <th>Event</th>
@@ -138,24 +146,32 @@
 
 // example:
 // 2020-03-05 13:02:43 Sent SMS [SMSC:gsm1] [SVC:testuser] [ACT:] [BINF:] [FID:] [META:?smpp?] [from:+972522736902] [to:+972544434545] [flags:-1:0:-1:0:0] [msg:30:rep from smpp-tester] [udh:0:]
-//function parse_access_log(line) {
-function add_board_entry(line) {
-  var timestamp = line.split(' ').slice(0, 2).join(' ');
-  var event = line.split(' ').slice(2, 4).join(' ');
-  var data = line.split(' ');
-  var event_args = data.splice(4);
-  var smsc = get_arg_value(event_agrs, 'SMSC');
-  var from = get_arg_value(event_agrs, 'from');
-  var to   = get_arg_value(event_agrs, 'to');
-  var msg  = get_arg_value(event_agrs, 'msg');
+//function parse_access_log(multiline) {
 
-  var entry = '<tr><td>' + event + '</td> ' + 
-              '<td>' + timestamp + '</td> ' +
-              '<td>' + smsc + '</td>' + 
-              '<td>' + from + '</td>' +
-              '<td>' + to + '</td>' +
-              '<td>' + msg + '</td></tr>'
-  $("#messages").append($(entry));
+// get multiline tail output, convert to lines and add to table	
+function add_board_entry(multiline) {
+  lines = multiline.split(/\r?\n/);
+  for(let line of lines) {
+    if (line === "") continue;
+    console.log('processing line: ' + line);
+    var timestamp = line.split(' ').slice(0, 2).join(' ');
+    var event = line.split(' ').slice(2, 4).join(' ');
+    var data = line.split(' ');
+    var event_args = data.splice(4);
+    var smsc = get_arg_value(event_args, 'SMSC');
+    var from = get_arg_value(event_args, 'from');
+    var to   = get_arg_value(event_args, 'to');
+    var msg  = get_arg_value(event_args, 'msg');
+
+
+    var entry = '<tr><td>' + event + '</td> ' + 
+                '<td>' + timestamp + '</td> ' +
+                '<td>' + smsc + '</td>' + 
+                '<td>' + from + '</td>' +
+                '<td>' + to + '</td>' +
+                '<td>' + msg + '</td></tr>'
+    $("#messages").append($(entry));
+  }
 }
 
 
@@ -183,7 +199,7 @@ function get_arg_value(args, key) {
           console.log('received access record');
           console.log(message.tail);
           // TODO: add this !!!
-	  //add_board_entry(message.tail);
+	  add_board_entry(message.tail);
 	  
 	  //$('#board').append(message.tail);
           //bottom = $("#board")[0].scrollHeight - $("#board").height()
