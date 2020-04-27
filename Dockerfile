@@ -45,5 +45,8 @@ VOLUME /var/log/kannel
 VOLUME /var/spool/kannel
 WORKDIR /usr/sbin
 
+COPY start.sh start.sh
 # admin-port, send-sms-port, smpp-port
 EXPOSE 13000 13013 2776
+
+CMD ./start.sh

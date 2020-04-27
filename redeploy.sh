@@ -9,27 +9,21 @@ docker rm opensmppbox   || true
 docker stop bearerbox   || true
 docker rm bearerbox     || true
 
-echo "starting bearerbox..."
-docker run -d --name bearerbox -p 13000:13000 \
-       --hostname bearerbox \
-       --device=/dev/ttyUSB0 --cap-add SYS_PTRACE \
-       --device=/dev/ttyUSB1 --cap-add SYS_PTRACE \
-       --volume $(readlink -f volumes)/kannel/etc/:/etc/kannel \
-       --volume $(readlink -f volumes)/kannel/log:/var/log/kannel \
-       --volume $(readlink -f volumes)/kannel/spool:/var/spool/kannel \
-         kannelplus bearerbox -v 0 /etc/kannel/kannel.conf
 
-echo "waiting for bearerbox..."; sleep 3s
+################ IN EDIT ##################
 
-echo "starting smsbox..."
-docker run -d --name smsbox -p 13013:13013 \
-       --hostname smsbox --volumes-from bearerbox --link bearerbox:bearerbox \
-         kannelplus smsbox -v 0 /etc/kannel/kannel.conf
+echo "starting kannel-combined"
+docker run -d --name kannel-xxx \
+	   -p 13000:13000 \
+	   -p 13013:13013 \
+	   -p 2776:2776 \
+	   --device=/dev/ttyUSB0 --cap-add SYS_PTRACE \
+           --volume $(readlink -f volumes)/kannel/etc/:/etc/kannel \
+           --volume $(readlink -f volumes)/kannel/log:/var/log/kannel \
+           --volume $(readlink -f volumes)/kannel/spool:/var/spool/kannel \
+           kannelplus:2.1
 
-echo "starting opensmppbox..."
-docker run -d --name opensmppbox -p 2776:2776 \
-       --hostname opensmppbox --volumes-from bearerbox --link bearerbox:bearerbox \
-         kannelplus opensmppbox -v 0 /etc/kannel/opensmppbox.conf
+# --device=/dev/ttyUSB1 --cap-add SYS_PTRACE \
 
 echo "kannel started."
 docker ps --format 'table {{.Names}}\t{{.Status}}\t{{.Ports}}'
