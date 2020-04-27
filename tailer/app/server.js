@@ -26,6 +26,9 @@ server = http.createServer(function(req, res){
     case '.css':
         contentType = 'text/css';
         break;
+    case '.ttf':
+        contentType = 'application/x-font-ttf';
+        break;
   }
   fs.exists(filePath, function(exists) {
     if (exists) {

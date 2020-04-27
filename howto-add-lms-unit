@@ -1,0 +1,54 @@
+
+
+1. find sn and keys for a components using keys-webservice:
+   $ curl --silent -u momo:1234 http://192.168.10.40:8443/keys/v1/components/000000005649A3 | jq '.'
+
+[
+  {
+    "key": "350C0FFA1C300A407E04ABA29EE9252D",
+    "sn": "000000005649A3C1",
+    "type": "IDU",
+    "systemId": "2882306"
+  },
+  {
+    "key": "F54EA05F98023AC45241BBD08DD3D445",
+    "sn": "000000006649A364",
+    "type": "IDUGW",
+    "systemId": "2882306"
+  },
+  {
+    "key": "70EA2FF3E9A895DBEDAF533821F3A297",
+    "sn": "0000000084F10A52",
+    "type": "Battery",
+    "systemId": "2882306"
+  }
+]
+
+
+2. create 3 components in LMSDB using postman:
+   {{PROTO}}://{{LMS_URL}}:{{PORT}}/lms/v1/components
+
+3. insert enc keys manually :
+  select * from env84_lms.component_encryption_keys;
+ 
+  insert into env84_lms.component_encryption_keys (creation_date, update_date, is_deleted, serial_number, encryption_key)
+  VALUES ( now(), now(), FALSE, '000000005649A3C1', x'350C0FFA1C300A407E04ABA29EE9252D' );
+
+  insert into env84_lms.component_encryption_keys (creation_date, update_date, is_deleted, serial_number, encryption_key)
+  VALUES ( now(), now(), FALSE, '000000006649A364', x'F54EA05F98023AC45241BBD08DD3D445' );
+
+  insert into env84_lms.component_encryption_keys (creation_date, update_date, is_deleted, serial_number, encryption_key)
+  VALUES ( now(), now(), FALSE, '0000000084F10A52', x'70EA2FF3E9A895DBEDAF533821F3A297' );
+
+4. create SPS unit:
+   {{PROTO}}://{{LMS_URL}}:{{PORT}}/lms/v1/units
+
+{
+  "unit_serial_number": "2882306",
+  "idu_serial_number": "000000005649A3C1",
+  "idugw_serial_number": "000000006649A364",
+  "battery_serial_number": "0000000084F10A52",
+  "phone_number": "972522350429"
+}
+
+
