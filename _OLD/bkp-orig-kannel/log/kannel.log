@@ -1,0 +1,138 @@
+2020-04-27 08:11:51 [7] [0] INFO: Added logfile `/var/log/kannel/kannel.log' with level `0'.
+2020-04-27 08:11:51 [7] [0] INFO: Started access logfile `/var/log/kannel/access.log'.
+2020-04-27 08:11:51 [7] [0] INFO: HTTP: Opening server at port 13000.
+2020-04-27 08:11:51 [7] [0] DEBUG: Started thread 1 (gwlib/fdset.c:poller)
+2020-04-27 08:11:51 [7] [1] DEBUG: Thread 1 (gwlib/fdset.c:poller) maps to pid 7.
+2020-04-27 08:11:51 [7] [0] DEBUG: Started thread 2 (gwlib/http.c:server_thread)
+2020-04-27 08:11:51 [7] [2] DEBUG: Thread 2 (gwlib/http.c:server_thread) maps to pid 7.
+2020-04-27 08:11:51 [7] [2] DEBUG: HTTP: Including port 13000, fd 10 for polling in server thread
+2020-04-27 08:11:51 [7] [0] DEBUG: Started thread 3 (gw/bb_http.c:httpadmin_run)
+2020-04-27 08:11:51 [7] [0] DEBUG: starting smsbox connection module
+2020-04-27 08:11:51 [7] [0] INFO: BOXC: 'smsbox-max-pending' not set, using default (100).
+2020-04-27 08:11:51 [7] [0] DEBUG: Adding smsbox routing to id <smppuser> for smsc id <gsm0>
+2020-04-27 08:11:51 [7] [0] DEBUG: Adding smsbox routing to id <testuser> for smsc id <gsm1>
+2020-04-27 08:11:51 [7] [0] DEBUG: Started thread 4 (gw/bb_boxc.c:sms_to_smsboxes)
+2020-04-27 08:11:51 [7] [4] DEBUG: Thread 4 (gw/bb_boxc.c:sms_to_smsboxes) maps to pid 7.
+2020-04-27 08:11:51 [7] [0] DEBUG: Started thread 5 (gw/bb_boxc.c:smsboxc_run)
+2020-04-27 08:11:51 [7] [5] DEBUG: Thread 5 (gw/bb_boxc.c:smsboxc_run) maps to pid 7.
+2020-04-27 08:11:51 [7] [0] INFO: Set SMS resend frequency to 60 seconds.
+2020-04-27 08:11:51 [7] [0] INFO: SMS resend retry set to unlimited.
+2020-04-27 08:11:51 [7] [0] DEBUG: MO concatenated message handling enabled
+2020-04-27 08:11:51 [7] [0] INFO: DLR rerouting for smsc id <gsm0> disabled.
+2020-04-27 08:11:51 [7] [0] INFO: Added logfile `/var/log/kannel/smsc-gsm0.log' with level `0'.
+2020-04-27 08:11:51 [7] [3] DEBUG: Thread 3 (gw/bb_http.c:httpadmin_run) maps to pid 7.
+2020-04-27 08:11:51 [7] [0] INFO: AT2[gsm0]: configuration shows modemtype <siemens>
+2020-04-27 08:11:51 [7] [0] DEBUG: AT2[gsm0]: Reading modem definitions from </etc/kannel/kannel.conf>
+2020-04-27 08:11:51 [7] [0] DEBUG: AT2[gsm0]: Found <1> modems in config
+2020-04-27 08:11:51 [7] [0] INFO: AT2[gsm0]: read modem definition for <siemens>
+2020-04-27 08:11:51 [7] [0] DEBUG: Started thread 6 (gw/smsc/smsc_at.c:at2_device_thread)
+2020-04-27 08:11:51 [7] [6] DEBUG: Thread 6 (gw/smsc/smsc_at.c:at2_device_thread) maps to pid 7.
+2020-04-27 08:11:51 [7] [6] INFO: Logging thread `6' to logfile `/var/log/kannel/smsc-gsm0.log' with level `0'.
+2020-04-27 08:11:51 [7] [0] INFO: DLR rerouting for smsc id <gsm1> disabled.
+2020-04-27 08:11:51 [7] [0] INFO: Added logfile `/var/log/kannel/smsc-gsm1.log' with level `0'.
+2020-04-27 08:11:51 [7] [0] INFO: AT2[gsm1]: configuration shows modemtype <siemens>
+2020-04-27 08:11:51 [7] [0] DEBUG: AT2[gsm1]: Reading modem definitions from </etc/kannel/kannel.conf>
+2020-04-27 08:11:51 [7] [0] DEBUG: AT2[gsm1]: Found <1> modems in config
+2020-04-27 08:11:51 [7] [0] INFO: AT2[gsm1]: read modem definition for <siemens>
+2020-04-27 08:11:51 [7] [0] DEBUG: Started thread 7 (gw/smsc/smsc_at.c:at2_device_thread)
+2020-04-27 08:11:51 [7] [0] DEBUG: Started thread 8 (gw/bb_smscconn.c:sms_router)
+2020-04-27 08:11:51 [7] [0] INFO: ----------------------------------------
+2020-04-27 08:11:51 [7] [0] INFO: Kannel bearerbox II version 1.4.5 starting
+2020-04-27 08:11:51 [7] [0] INFO: MAIN: Start-up done, entering mainloop
+2020-04-27 08:11:51 [7] [0] DEBUG: AT2[gsm0]: start called
+2020-04-27 08:11:51 [7] [0] DEBUG: AT2[gsm1]: start called
+2020-04-27 08:11:51 [7] [8] DEBUG: Thread 8 (gw/bb_smscconn.c:sms_router) maps to pid 7.
+2020-04-27 08:11:51 [7] [7] DEBUG: Thread 7 (gw/smsc/smsc_at.c:at2_device_thread) maps to pid 7.
+2020-04-27 08:11:51 [7] [7] INFO: Logging thread `7' to logfile `/var/log/kannel/smsc-gsm1.log' with level `0'.
+2020-04-27 08:15:51 [7] [0] INFO: Added logfile `/var/log/kannel/kannel.log' with level `0'.
+2020-04-27 08:15:51 [7] [0] INFO: Started access logfile `/var/log/kannel/access.log'.
+2020-04-27 08:15:51 [7] [0] INFO: HTTP: Opening server at port 13000.
+2020-04-27 08:15:51 [7] [0] DEBUG: Started thread 1 (gwlib/fdset.c:poller)
+2020-04-27 08:15:51 [7] [0] DEBUG: Started thread 2 (gwlib/http.c:server_thread)
+2020-04-27 08:15:51 [7] [2] DEBUG: Thread 2 (gwlib/http.c:server_thread) maps to pid 7.
+2020-04-27 08:15:51 [7] [2] DEBUG: HTTP: Including port 13000, fd 10 for polling in server thread
+2020-04-27 08:15:51 [7] [0] DEBUG: Started thread 3 (gw/bb_http.c:httpadmin_run)
+2020-04-27 08:15:51 [7] [3] DEBUG: Thread 3 (gw/bb_http.c:httpadmin_run) maps to pid 7.
+2020-04-27 08:15:51 [7] [0] DEBUG: starting smsbox connection module
+2020-04-27 08:15:51 [7] [0] INFO: BOXC: 'smsbox-max-pending' not set, using default (100).
+2020-04-27 08:15:51 [7] [0] DEBUG: Adding smsbox routing to id <smppuser> for smsc id <gsm0>
+2020-04-27 08:15:51 [7] [0] DEBUG: Adding smsbox routing to id <testuser> for smsc id <gsm1>
+2020-04-27 08:15:51 [7] [0] DEBUG: Started thread 4 (gw/bb_boxc.c:sms_to_smsboxes)
+2020-04-27 08:15:51 [7] [4] DEBUG: Thread 4 (gw/bb_boxc.c:sms_to_smsboxes) maps to pid 7.
+2020-04-27 08:15:51 [7] [0] DEBUG: Started thread 5 (gw/bb_boxc.c:smsboxc_run)
+2020-04-27 08:15:51 [7] [0] INFO: Set SMS resend frequency to 60 seconds.
+2020-04-27 08:15:51 [7] [0] INFO: SMS resend retry set to unlimited.
+2020-04-27 08:15:51 [7] [0] DEBUG: MO concatenated message handling enabled
+2020-04-27 08:15:51 [7] [0] INFO: DLR rerouting for smsc id <gsm0> disabled.
+2020-04-27 08:15:51 [7] [1] DEBUG: Thread 1 (gwlib/fdset.c:poller) maps to pid 7.
+2020-04-27 08:15:51 [7] [0] INFO: Added logfile `/var/log/kannel/smsc-gsm0.log' with level `0'.
+2020-04-27 08:15:51 [7] [0] INFO: AT2[gsm0]: configuration shows modemtype <siemens>
+2020-04-27 08:15:51 [7] [0] DEBUG: AT2[gsm0]: Reading modem definitions from </etc/kannel/kannel.conf>
+2020-04-27 08:15:51 [7] [0] DEBUG: AT2[gsm0]: Found <1> modems in config
+2020-04-27 08:15:51 [7] [0] INFO: AT2[gsm0]: read modem definition for <siemens>
+2020-04-27 08:15:51 [7] [0] DEBUG: Started thread 6 (gw/smsc/smsc_at.c:at2_device_thread)
+2020-04-27 08:15:51 [7] [6] DEBUG: Thread 6 (gw/smsc/smsc_at.c:at2_device_thread) maps to pid 7.
+2020-04-27 08:15:51 [7] [6] INFO: Logging thread `6' to logfile `/var/log/kannel/smsc-gsm0.log' with level `0'.
+2020-04-27 08:15:51 [7] [0] INFO: DLR rerouting for smsc id <gsm1> disabled.
+2020-04-27 08:15:51 [7] [0] INFO: Added logfile `/var/log/kannel/smsc-gsm1.log' with level `0'.
+2020-04-27 08:15:51 [7] [5] DEBUG: Thread 5 (gw/bb_boxc.c:smsboxc_run) maps to pid 7.
+2020-04-27 08:15:51 [7] [0] INFO: AT2[gsm1]: configuration shows modemtype <siemens>
+2020-04-27 08:15:51 [7] [0] DEBUG: AT2[gsm1]: Reading modem definitions from </etc/kannel/kannel.conf>
+2020-04-27 08:15:51 [7] [0] DEBUG: AT2[gsm1]: Found <1> modems in config
+2020-04-27 08:15:51 [7] [0] INFO: AT2[gsm1]: read modem definition for <siemens>
+2020-04-27 08:15:51 [7] [7] DEBUG: Thread 7 (gw/smsc/smsc_at.c:at2_device_thread) maps to pid 7.
+2020-04-27 08:15:51 [7] [7] INFO: Logging thread `7' to logfile `/var/log/kannel/smsc-gsm1.log' with level `0'.
+2020-04-27 08:15:51 [7] [0] DEBUG: Started thread 7 (gw/smsc/smsc_at.c:at2_device_thread)
+2020-04-27 08:15:51 [7] [0] DEBUG: Started thread 8 (gw/bb_smscconn.c:sms_router)
+2020-04-27 08:15:51 [7] [0] INFO: ----------------------------------------
+2020-04-27 08:15:51 [7] [8] DEBUG: Thread 8 (gw/bb_smscconn.c:sms_router) maps to pid 7.
+2020-04-27 08:15:51 [7] [0] INFO: Kannel bearerbox II version 1.4.5 starting
+2020-04-27 08:15:51 [7] [0] INFO: MAIN: Start-up done, entering mainloop
+2020-04-27 08:15:51 [7] [0] DEBUG: AT2[gsm0]: start called
+2020-04-27 08:15:51 [7] [0] DEBUG: AT2[gsm1]: start called
+2020-04-27 08:41:07 [7] [0] INFO: Added logfile `/var/log/kannel/kannel.log' with level `0'.
+2020-04-27 08:41:07 [7] [0] INFO: Started access logfile `/var/log/kannel/access.log'.
+2020-04-27 08:41:07 [7] [0] INFO: HTTP: Opening server at port 13000.
+2020-04-27 08:41:07 [7] [0] DEBUG: Started thread 1 (gwlib/fdset.c:poller)
+2020-04-27 08:41:07 [7] [1] DEBUG: Thread 1 (gwlib/fdset.c:poller) maps to pid 7.
+2020-04-27 08:41:07 [7] [0] DEBUG: Started thread 2 (gwlib/http.c:server_thread)
+2020-04-27 08:41:07 [7] [2] DEBUG: Thread 2 (gwlib/http.c:server_thread) maps to pid 7.
+2020-04-27 08:41:07 [7] [2] DEBUG: HTTP: Including port 13000, fd 10 for polling in server thread
+2020-04-27 08:41:07 [7] [0] DEBUG: Started thread 3 (gw/bb_http.c:httpadmin_run)
+2020-04-27 08:41:07 [7] [0] DEBUG: starting smsbox connection module
+2020-04-27 08:41:07 [7] [0] INFO: BOXC: 'smsbox-max-pending' not set, using default (100).
+2020-04-27 08:41:07 [7] [0] DEBUG: Adding smsbox routing to id <smppuser> for smsc id <gsm0>
+2020-04-27 08:41:07 [7] [0] DEBUG: Adding smsbox routing to id <testuser> for smsc id <gsm1>
+2020-04-27 08:41:07 [7] [0] DEBUG: Started thread 4 (gw/bb_boxc.c:sms_to_smsboxes)
+2020-04-27 08:41:07 [7] [4] DEBUG: Thread 4 (gw/bb_boxc.c:sms_to_smsboxes) maps to pid 7.
+2020-04-27 08:41:07 [7] [0] DEBUG: Started thread 5 (gw/bb_boxc.c:smsboxc_run)
+2020-04-27 08:41:07 [7] [5] DEBUG: Thread 5 (gw/bb_boxc.c:smsboxc_run) maps to pid 7.
+2020-04-27 08:41:07 [7] [0] INFO: Set SMS resend frequency to 60 seconds.
+2020-04-27 08:41:07 [7] [0] INFO: SMS resend retry set to unlimited.
+2020-04-27 08:41:07 [7] [0] DEBUG: MO concatenated message handling enabled
+2020-04-27 08:41:07 [7] [0] INFO: DLR rerouting for smsc id <gsm0> disabled.
+2020-04-27 08:41:07 [7] [0] INFO: Added logfile `/var/log/kannel/smsc-gsm0.log' with level `0'.
+2020-04-27 08:41:07 [7] [0] INFO: AT2[gsm0]: configuration shows modemtype <siemens>
+2020-04-27 08:41:07 [7] [0] DEBUG: AT2[gsm0]: Reading modem definitions from </etc/kannel/kannel.conf>
+2020-04-27 08:41:07 [7] [0] DEBUG: AT2[gsm0]: Found <1> modems in config
+2020-04-27 08:41:07 [7] [0] INFO: AT2[gsm0]: read modem definition for <siemens>
+2020-04-27 08:41:07 [7] [3] DEBUG: Thread 3 (gw/bb_http.c:httpadmin_run) maps to pid 7.
+2020-04-27 08:41:07 [7] [0] DEBUG: Started thread 6 (gw/smsc/smsc_at.c:at2_device_thread)
+2020-04-27 08:41:07 [7] [6] DEBUG: Thread 6 (gw/smsc/smsc_at.c:at2_device_thread) maps to pid 7.
+2020-04-27 08:41:07 [7] [6] INFO: Logging thread `6' to logfile `/var/log/kannel/smsc-gsm0.log' with level `0'.
+2020-04-27 08:41:07 [7] [0] INFO: DLR rerouting for smsc id <gsm1> disabled.
+2020-04-27 08:41:07 [7] [0] INFO: Added logfile `/var/log/kannel/smsc-gsm1.log' with level `0'.
+2020-04-27 08:41:07 [7] [0] INFO: AT2[gsm1]: configuration shows modemtype <siemens>
+2020-04-27 08:41:07 [7] [0] DEBUG: AT2[gsm1]: Reading modem definitions from </etc/kannel/kannel.conf>
+2020-04-27 08:41:07 [7] [0] DEBUG: AT2[gsm1]: Found <1> modems in config
+2020-04-27 08:41:07 [7] [0] INFO: AT2[gsm1]: read modem definition for <siemens>
+2020-04-27 08:41:07 [7] [0] DEBUG: Started thread 7 (gw/smsc/smsc_at.c:at2_device_thread)
+2020-04-27 08:41:07 [7] [7] DEBUG: Thread 7 (gw/smsc/smsc_at.c:at2_device_thread) maps to pid 7.
+2020-04-27 08:41:07 [7] [7] INFO: Logging thread `7' to logfile `/var/log/kannel/smsc-gsm1.log' with level `0'.
+2020-04-27 08:41:07 [7] [0] DEBUG: Started thread 8 (gw/bb_smscconn.c:sms_router)
+2020-04-27 08:41:07 [7] [0] INFO: ----------------------------------------
+2020-04-27 08:41:07 [7] [0] INFO: Kannel bearerbox II version 1.4.5 starting
+2020-04-27 08:41:07 [7] [0] INFO: MAIN: Start-up done, entering mainloop
+2020-04-27 08:41:07 [7] [0] DEBUG: AT2[gsm0]: start called
+2020-04-27 08:41:07 [7] [0] DEBUG: AT2[gsm1]: start called
+2020-04-27 08:41:07 [7] [8] DEBUG: Thread 8 (gw/bb_smscconn.c:sms_router) maps to pid 7.

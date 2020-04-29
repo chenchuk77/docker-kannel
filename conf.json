@@ -1,0 +1,24 @@
+{
+  "channels": [
+    {
+      "device": "/dev/ttyUSB0",
+      "msisdn": "972523245068",
+      "http_port": "15068",
+      "smpp": {
+         "port": "25068",
+         "username": "worker84",
+         "password": "pass84"
+      }
+    },
+    {
+      "device": "/dev/ttyUSB1",
+      "msisdn": "972522736902",
+      "http_port": "16902",
+      "smpp": {
+         "port": "26902",
+         "username": "u1",
+         "password": "p1"
+      }
+    }
+  ]
+}

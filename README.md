@@ -1,7 +1,51 @@
 docker-kannel
 =============
 
+
+kannelplus:2.1 image contains 
+- bearerbox
+- smsbox
+- http server for send sms
+- opensmppbox
+all services wrapped in a starter script and runs within a single container
+
+conf.json
+- list of channels
+- represents the system config
+- each channel will create a container
+- channel contains unique ports, usernames, msisdn
+
+deploy.sh
+  clear volumes fs struct
+  generate fs struct
+  generate docker starter script
+  start dockers
+undeploy.sh
+  kill all kannel-xxx containers 
+  clear volumes
+
+
+
+## link to conf.json
+
+
+
+
+
+
+
+
+
+
+
+
 Docker image for [Kannel](http://kannel.org/)
+
+
+
+
+
+
 
 ## kannelplus
 Image that contains installation of kannel and opensmppbox.
@@ -79,3 +123,4 @@ cd tailer
 `
 
 
+docker build -t kannelplus:2.1 .

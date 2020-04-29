@@ -1,6 +1,7 @@
 #
 # kannelplus image, contains kannel + opensmppbox
-#
+# build with
+# docker build -t kannelplus:2.1 .
 
 FROM ubuntu:precise
 MAINTAINER Chen Alkabets <chenchuk@gmail.com>

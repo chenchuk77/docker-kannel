@@ -2,6 +2,8 @@
 
 echo "removing old containers, press ^c to abort..."
 sleep 1s
+docker stop kannel-xxx      || true
+docker rm kannel-xxx      || true
 docker stop smsbox      || true
 docker rm smsbox        || true
 docker stop opensmppbox || true

@@ -1,0 +1,2 @@
+2020-04-27 09:29:37 [28] [0] INFO: Added logfile `/var/log/kannel/opensmppbox1.log' with level `0'.
+2020-04-27 09:29:37 [28] [0] INFO: Waiting for SMPP connections on port 2776.
