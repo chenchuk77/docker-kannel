@@ -1,0 +1,2 @@
+# to build a tailer:2.0 image
+docker build -t tailer:2.0 .a

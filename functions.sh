@@ -16,3 +16,8 @@ function kannel-tree {
   tree volumes
   echo ""
 }
+
+function kannel-conf {
+  cat conf.json | jq '.'
+  echo ""
+}

@@ -1,8 +1,16 @@
 #!/bin/bash
 
+#
+# usage:
+# ./send.sh {target} {qouted text}
+#
+# example:
+# ./send.sh 0544434545 "web message from kannel-{{ channel.msisdn }}"
+#
+
 TO=$1
 TEXT=$2
 
 URL_TEXT=$(echo $TEXT | sed 's/ /%20/g')
-curl -X GET "http://192.168.2.113:15068/cgi-bin/sendsms?username=user&password=pass&from=972523245068&to=${TO}&text=${URL_TEXT}"
+curl -X GET "http://192.168.2.113:{{ channel.http_port }}/cgi-bin/sendsms?username=user&password=pass&from={{ channel.msisdn }}&to=${TO}&text=${URL_TEXT}"
 

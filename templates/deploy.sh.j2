@@ -26,8 +26,16 @@ echo "tailer-{{ channel.msisdn }} started."; sleep 2s
 {% endfor %}
 
 {% raw %}
+echo ""
 docker ps --format 'table {{.Names}}\t{{.Status}}\t{{.Ports}}'
-echo "done."
 {% endraw %}
+echo ""
 
-
+echo "---------------------------------------------"
+echo "you can open tailer for logs at: "
+echo ""
+{% for channel in channels %}
+echo "- http://192.168.2.113:{{ channel.tailer_port }}"
+{% endfor %}
+echo "---------------------------------------------"
+echo ""
