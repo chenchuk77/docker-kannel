@@ -8,6 +8,11 @@
 # 
 
 
-function dps {
+function kannel-status {
   docker ps --format 'table {{.Names}}\t{{.Status}}\t{{.Ports}}'
+}
+
+function kannel-tree {
+  tree volumes
+  echo ""
 }

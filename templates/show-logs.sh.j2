@@ -1,0 +1,4 @@
+#!/bin/bash
+
+FOLDER=$1
+multitail -Q 1 $(readlink -f kannel/log)/*

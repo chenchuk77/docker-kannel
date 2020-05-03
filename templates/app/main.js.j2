@@ -1,6 +1,7 @@
 var Application = function() {
-  var socket = io('http://192.168.2.113:8000');
-  //var socket = io('http://10.100.102.2:8000');
+  //var socket = io('http://192.168.2.113:8000');
+  var socket = io('http://192.168.2.113:{{ channel.tailer_port }}');
+ // var socket = io('http://10.100.102.2:8000');
   var logfiles = [
     { filename: 'access.log',  color: 'black',  enabled: true },
     { filename: 'kannel.log',  color: 'gray',   enabled: true },

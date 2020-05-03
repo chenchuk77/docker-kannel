@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "removing running containers..."
-for cid in $(docker ps | grep kannel | cut -d " " -f1); do
+for cid in $(docker ps | grep -E "kannel|tailer" | cut -d " " -f1); do
   docker stop $cid || true
   docker rm $cid || true
 done
