@@ -1,0 +1,19 @@
+ 2001  sudo apt-get install mysql-server
+ 2002  grep bind /etc/mysql/
+ 2003  grep -R bind /etc/mysql/
+ 2004  grep -R 127.0.0.1 /etc/mysql/
+ 2005  sudo sed -i 's/127.0.0.1/0.0.0.0/g' /etc/mysql/mysql.conf.d/mysqld.cnf
+ 2006  grep -R 127.0.0.1 /etc/mysql/
+ 2007  grep -R 0.0.0.0 /etc/mysql/
+ 2008  sudo systemctl restart mysql.service
+ 2009  sudo mysql
+ 2010  sudo mysql -e 'select host,user from mysql.user;
+ 2011  sudo mysql -e 'select host,user from mysql.user;'
+ 2012  sudo mysql -e "CREATE USER 'kannel'@'%' IDENTIFIED BY '1234qwer';"
+ 2013  sudo mysql -e "GRANT ALL PRIVILEGES ON *.* TO 'kannel'@'%';"
+ 2014  sudo mysql -e "update mysql.user set host = '%' where user = 'root';"
+ 2015  sudo mysql -e "FLUSH PRIVILEGES;"
+ 2016  mysql -ukannel -p1234qwer -h127.0.0.1
+ 2017  host
+
+
