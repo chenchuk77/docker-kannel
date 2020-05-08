@@ -38,4 +38,16 @@ echo ""
 echo "- http://192.168.2.113:{{ channel.tailer_port }}"
 {% endfor %}
 echo "---------------------------------------------"
+echo "to send sms from shell:"
+{% for channel in channels %}
+echo '- ./volumes/{{ channel.msisdn }}/send.sh 0544434545 "hello from kannel-{{ channel.msisdn }}"'
+{% endfor %}
+echo "---------------------------------------------"
+echo "to send sms via smsbox web interface:"
+{% for channel in channels %}
+echo "- http://192.168.2.113:{{ channel.http_port }}/cgi-bin/sendsms?username=user&password=pass&from={{ channel.msisdn }}&to=0521112222&text=some%20text%20here"
+{% endfor %}
+echo "---------------------------------------------"
 echo ""
+echo ""
+

@@ -15,7 +15,8 @@ access-log = /var/log/kannel/access.log
 group = smsc
 smsc = at
 smsc-id = smsc-{{ channel.msisdn }}
-my-number = +{{ channel.msisdn }}
+#my-number = +{{ channel.msisdn }}
+my-number = {{ channel.msisdn }}
 modemtype = siemens
 device = {{ channel.device  }}
 speed = 115200
@@ -28,7 +29,7 @@ allowed-smsc-id = smsc-{{ channel.msisdn }}
 
 # smsbox represent smpp user (1st field) in opensmppbox.users
 group = smsbox
-smsbox-id = smppuser
+smsbox-id = {{ channel.smpp.username }}
 bearerbox-host = localhost
 
 # routing incomming messages (to: +{{ channel.msisdn }}) -> smpp-client: {{ channel.smpp.username }}
