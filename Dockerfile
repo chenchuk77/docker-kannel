@@ -1,7 +1,11 @@
 #
-# kannelplus image, contains kannel + opensmppbox
+# kannelplus image:
+# - kannel
+# - opensmppbox
+# - mysql-dev libs to compile kannel with DLR support (added in version 3.x)
+#
 # build with
-# docker build -t kannelplus:2.1 .
+# docker build -t kannelplus:3.1 .
 
 FROM ubuntu:precise
 MAINTAINER Chen Alkabets <chenchuk@gmail.com>
@@ -11,11 +15,12 @@ RUN apt-get update && apt-get install -y \
     libxml2-dev \
     libssl-dev \
     openssl \
+    libmysqld-dev \
     wget \
     && wget --no-check-certificate https://kannel.org/download/1.4.5/gateway-1.4.5.tar.gz \
     && tar xzf gateway-1.4.5.tar.gz \
     && cd gateway-1.4.5 \
-    && ./configure --prefix=/usr --sysconfdir=/etc/kannel \
+    && ./configure --prefix=/usr --sysconfdir=/etc/kannel --with-mysql --with-mysql-dir=/usr/include/mysql \
     && touch .depend \
     && make \
     && make install \
@@ -51,3 +56,4 @@ COPY start.sh start.sh
 EXPOSE 13000 13013 2776
 
 CMD ./start.sh
+#CMD /bin/bash

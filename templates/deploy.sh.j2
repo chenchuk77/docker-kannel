@@ -12,7 +12,7 @@ docker run -d --name kannel-{{ channel.msisdn }} \
            --volume $(readlink -f volumes)/{{ channel.msisdn }}/kannel/etc/:/etc/kannel \
            --volume $(readlink -f volumes)/{{ channel.msisdn }}/kannel/log:/var/log/kannel \
            --volume $(readlink -f volumes)/{{ channel.msisdn }}/kannel/spool:/var/spool/kannel \
-           kannelplus:2.1
+           kannelplus:3.1
 echo "kannel-{{ channel.msisdn }} started."; sleep 2s
 
 echo "starting tailer-{{ channel.msisdn }}"
