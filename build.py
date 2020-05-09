@@ -49,6 +49,7 @@ with open('conf.json') as json_file:
         makedir("./volumes/" + msisdn + "/tailer/app")
         print('generating config files for channel: {}.'.format(msisdn))
         render('kannel.conf.j2',       './volumes/'+msisdn+'/kannel/etc/kannel.conf',       channel=channel)
+        render('dlr-mysql.conf.j2',    './volumes/'+msisdn+'/kannel/etc/dlr-mysql.conf',    channel=channel)
         render('opensmppbox.conf.j2',  './volumes/'+msisdn+'/kannel/etc/opensmppbox.conf',  channel=channel)
         render('opensmppbox.users.j2', './volumes/'+msisdn+'/kannel/etc/opensmppbox.users', channel=channel)
         render('send.sh.j2', './volumes/'+msisdn+'/send.sh', channel=channel)

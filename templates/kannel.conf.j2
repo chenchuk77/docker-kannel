@@ -1,4 +1,7 @@
 
+# adding external DLR's configuration
+include = /etc/kannel/dlr-mysql.conf
+
 ## Core
 group = core
 admin-port = 13000
@@ -10,6 +13,7 @@ box-allow-ip = "*.*.*.*"
 log-level = 0
 log-file = /var/log/kannel/kannel.log
 access-log = /var/log/kannel/access.log
+dlr-storage = mysql
 
 ## SMSC - [ connected to: {{ channel.device  }} ]
 group = smsc

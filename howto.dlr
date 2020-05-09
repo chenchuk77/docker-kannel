@@ -15,5 +15,8 @@
  2015  sudo mysql -e "FLUSH PRIVILEGES;"
  2016  mysql -ukannel -p1234qwer -h127.0.0.1
  2017  host
+mysql -ukannel -p1234qwer -h127.0.0.1 -e "create database dlrs;"
 
+
+mysql -ukannel -p1234qwer -h127.0.0.1 -e 'CREATE TABLE dlrs.dlr (smsc varchar(40), ts varchar(40), destination varchar(40),source varchar(40), service varchar(40), url varchar(255), mask int(10),status int(10), boxc varchar(40));'
 
