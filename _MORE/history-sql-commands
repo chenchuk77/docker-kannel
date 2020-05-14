@@ -1,0 +1,40 @@
+ 1901  sudo apt-get install mysql-server
+ 1902  grep bind /etc/mysql/
+ 1903  grep -R bind /etc/mysql/
+ 1904  grep -R 127.0.0.1 /etc/mysql/
+ 1905  sudo sed -i 's/127.0.0.1/0.0.0.0/g' /etc/mysql/mysql.conf.d/mysqld.cnf
+ 1906  grep -R 127.0.0.1 /etc/mysql/
+ 1907  grep -R 0.0.0.0 /etc/mysql/
+ 1908  sudo systemctl restart mysql.service
+ 1909  sudo mysql
+ 1910  sudo mysql -e 'select host,user from mysql.user;
+ 1911  sudo mysql -e 'select host,user from mysql.user;'
+ 1912  sudo mysql -e "CREATE USER 'kannel'@'%' IDENTIFIED BY '1234qwer';"
+ 1913  sudo mysql -e "GRANT ALL PRIVILEGES ON *.* TO 'kannel'@'%';"
+ 1914  sudo mysql -e "update mysql.user set host = '%' where user = 'root';"
+ 1915  sudo mysql -e "FLUSH PRIVILEGES;"
+ 1916  mysql -ukannel -p1234qwer -h127.0.0.1
+ 1943  git commit -m "adding mysql setup instructions for dlr's "
+ 1946  cat > templates/dlr-mysql.conf
+ 1947  vim templates/dlr-mysql.conf 
+ 1950  cat templates/dlr-mysql.conf 
+ 1951  vim templates/dlr-mysql.conf 
+ 1953  history | grep mysql
+ 1954  mysql -ukannel -p1234qwer -h127.0.0.1
+ 1955  mysql -ukannel -p1234qwer -h127.0.0.1 -e "create database dlrs;'
+ 1956  mysql -ukannel -p1234qwer -h127.0.0.1 -e "create database dlrs;"
+ 1961  cat templates/dlr-mysql.conf 
+ 1962  mv templates/dlr-mysql.conf templates/dlr-mysql.conf.j2
+ 1963  vim templates/dlr-mysql.conf.j2 
+ 1968  mysql -ukannel -p1234qwer -h127.0.0.1 -e "use dlrs; show tables;'
+ 1969  mysql -ukannel -p1234qwer -h127.0.0.1 -e "use dlrs; show tables;"
+ 1970  mysql -ukannel -p1234qwer -h127.0.0.1 -e "use dlrs; show tablesx;"
+ 1974  mysql -ukannel -p1234qwer -h127.0.0.1 -e "use dlrs; show tables;"
+ 1975  mysql -ukannel -p1234qwer -h127.0.0.1
+ 1982  mysql -ukannel -p1234qwer -h127.0.0.1 -e 'CREATE TABLE dlr (smsc varchar(40), ts varchar(40), destination varchar(40),source varchar(40), service varchar(40), url varchar(255), mask int(10),status int(10), boxc varchar(40));'
+ 1983  mysql -ukannel -p1234qwer -h127.0.0.1 -e 'CREATE TABLE dlrs.dlr (smsc varchar(40), ts varchar(40), destination varchar(40),source varchar(40), service varchar(40), url varchar(255), mask int(10),status int(10), boxc varchar(40));'
+ 1988  mysql -ukannel -p1234qwer -h127.0.0.1 -e "use dlrs; show tables;"
+ 1989  mysql -ukannel -p1234qwer -h127.0.0.1 -e "select * from dlrs.dlr;"
+ 1991  vim templates/dlr-mysql.conf.j2 
+ 2019  history | grep mysql
+ 2020  history | grep mysql >> history-sql-commands

@@ -24,12 +24,16 @@ my-number = {{ channel.msisdn }}
 modemtype = siemens
 device = {{ channel.device  }}
 speed = 115200
-validityperiod = 143
+#validityperiod = 144
+#validityperiod = 143
 sim-buffering = true
 max-error-count = 5
 log-level = 0
 log-file = /var/log/kannel/smsc.log
 allowed-smsc-id = smsc-{{ channel.msisdn }}
+# 0x11 maens both are HEX, 0x00 means both are DEC, default is a literal c string.
+msg-id-type = 0x00
+unified-prefix = "972,+972"
 
 # smsbox represent smpp user (1st field) in opensmppbox.users
 group = smsbox
